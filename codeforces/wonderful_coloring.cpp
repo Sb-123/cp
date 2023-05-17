@@ -1,13 +1,14 @@
-#include<iostream>
-#include<set>
-#include<cmath>
-#include<iterator>
-#include<map>
+
 // #include<bits/stdc++.h>
+#include<iostream>
+#include<cstring>
+#include<set>
+#
 using namespace std;
 
-// void sol(){
+void sol(){
     string s;
+    cin>>s;
     
     int len=s.size();
     if(len==1){
@@ -34,32 +35,32 @@ using namespace std;
 
 }
 
-void sol(){
-    string s;
-    cin>>s;
-    int len=s.size();
-    if(len==1){
-        cout<<"0"<<"\n";
-        return;
-    }
-    map<char,int>mp;
+// void sol(){
+//     string s;
+//     cin>>s;
+//     int len=s.size();
+//     if(len==1){
+//         cout<<"0"<<"\n";
+//         return;
+//     }
+//     map<char,int>mp;
 
-    for(int i=0;i<len;i++){
-        mp[s[i]]++;
-    }
-    int c1=0,c2=0;
-   for(auto x : mp){
+//     for(int i=0;i<len;i++){
+//         mp[s[i]]++;
+//     }
+//     int c1=0,c2=0;
+//    for(auto x : mp){
      
-    if(x>1){
-        c2++;
-    }else{
-        c1++;
-    }
-   }
-//    cout<<c2<<" "<<c1<<endl;
-    int ans= c2/2 + floor(c1/2);
+//     if(x>1){
+//         c2++;
+//     }else{
+//         c1++;
+//     }
+//    }
+// //    cout<<c2<<" "<<c1<<endl;
+//     int ans= c2/2 + floor(c1/2);
     
-}
+// }
 
 int32_t main()
 {
