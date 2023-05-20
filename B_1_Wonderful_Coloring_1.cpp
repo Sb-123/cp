@@ -8,7 +8,7 @@ void sol(){
 
     map<char ,int> mp;
     for(int i=0;i<s.size();i++){
-        mp[s[i]]++;
+        mp[s[i]]++;                 
     }
 
     int cnt1=0,cnt2=0;
