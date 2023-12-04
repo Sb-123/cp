@@ -1,0 +1,1 @@
+{"name":"Local: A_Binary_Imbalance","url":"/Users/sanjeev_sb51/Documents/users/cp/codeforces/A_Binary_Imbalance.cpp","tests":[{"id":1701616215496,"input":"3\n2\n00\n2\n11\n2\n10","output":"YES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/sanjeev_sb51/Documents/users/cp/codeforces/A_Binary_Imbalance.cpp","group":"local","local":true}
